@@ -15,7 +15,7 @@ public class TP01Ex07 {
     /**
      * @param args the command line arguments
      */
-    /*Nomes: JoÃ£o Victor Lima Venceslau e Rayssa Silva de Oliveira 
+    /*Nomes: João Victor Lima Venceslau e Rayssa Silva de Oliveira 
      7. Calcular e exibir a média geométrica de dois valores quaisquer que serão
       digitados.*/
     public static void main(String[] args) {
