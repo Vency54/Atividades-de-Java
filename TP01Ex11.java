@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package tp01ex11;
-import java.util.Scanner;
+import java.util.*;
 /**
  *
  * @author aluno
