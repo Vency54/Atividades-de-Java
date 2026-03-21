@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tp01Ex13;
+package TP01Ex13;
 import java.util.*;
 /**
  *
  * @author aluno
  */
-public class Tp01Ex13 {
+public class TP01Ex13 {
 
     /*Nomes: João Victor Lima Venceslau e Rayssa Silva de Oliveira 
      13. Calcular e exibir a velocidade final (em km/h) de um automóvel, a partir dos
