@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package tp01ex10;
-import java.util.Scanner;
+import java.util.*;
 /**
  *
  * @author aluno
@@ -30,7 +30,6 @@ public class TP01Ex10 {
         
         System.out.println("Conversão para fahrenheit: "+fahrenheit);
         
-        scanner.close();
         
     }
     
