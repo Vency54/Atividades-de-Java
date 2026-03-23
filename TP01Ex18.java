@@ -21,27 +21,16 @@ public class TP01Ex18 {
     public static void main(String[] args) {
         // TODO code application logic here
             Scanner sc = new Scanner(System.in);
-            double produto1;
-            double produto2;
-            double produto3;
-            double produto4;
-            double produto5;
-            double soma;
+            double produtos = new double[5];
+            double soma = 0;
             double pagamento;
             double troco;
             
-            System.out.println("Digite o valor do produto 1: ");
-            produto1 = sc.nextDouble();
-            System.out.println("Digite o valor do produto 2: ");
-            produto2 = sc.nextDouble();
-            System.out.println("Digite o valor do produto 3: ");
-            produto3 = sc.nextDouble();
-            System.out.println("Digite o valor do produto 4: ");
-            produto4 = sc.nextDouble();
-            System.out.println("Digite o valor do produto 5: ");
-            produto5 = sc.nextDouble();
-            
-            soma = produto1 + produto2 + produto3 + produto4 + produto5;
+             for (int i = 0; i < 5; i++) {
+            System.out.print("Digite o valor do produto " + (i + 1) + ": ");
+            produtos[i] = scanner.nextDouble();
+            soma += produtos[i];
+        }            
             System.out.printf("Total da Compra: R$%.2f%n\"", soma);
             System.out.println("================================");
             System.out.println("Insira o valor para pagamento: ");
