@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package tp01ex09;
-import java.util.Scanner;
+import java.util.*;
 /**
  *
  * @author aluno
@@ -34,7 +34,6 @@ public class TP01Ex09 {
         
         System.out.println("Valor da tensão do circuito: "+tensao);
         
-        scanner.close();
     }
     
 }
