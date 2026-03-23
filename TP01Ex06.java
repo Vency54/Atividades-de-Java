@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package tp01ex06;
-import java.util.Scanner;
+import java.util.*;
 /**
  *
  * @author aluno
@@ -14,35 +14,25 @@ public class TP01Ex06 {
     /**
      * @param args the command line arguments
      */
-    /* Nomes: JoÃ£o Victor Lima Venceslau e Rayssa Silva de Oliveira 
+    /* Nomes: João Victor Lima Venceslau e Rayssa Silva de Oliveira 
     6. Calcular e exibir a média aritmética de quatro valores quaisquer que serão
       digitados.*/
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner scanner = new Scanner(System.in);
-        double n1;
-        double n2;
-        double n3;
-        double n4;
+        double[] valores = new double[4];
+        double soma = 0;
         double media;
         
-        System.out.println("Digite o primeiro número: ");
-        n1= scanner.nextDouble(); 
+for (int i = 0; i < 4; i++) {
+            System.out.print("Digite o valor " + (i + 1) + ": ");
+            valores[i] = scanner.nextDouble();
+            soma += valores[i];
+        }
         
-        System.out.println("Digite o segundo número: ");
-        n2= scanner.nextDouble(); 
-        
-        System.out.println("Digite o terceiro número: ");
-        n3= scanner.nextDouble(); 
-        
-        System.out.println("Digite o quarto número: ");
-        n4= scanner.nextDouble(); 
-        
-        media = (n1 + n2 + n3+ n4)/4;
+        media = soma/4;
         
         System.out.println("Média aritmética: "+media);
-        
-        scanner.close();
         
         
     }
