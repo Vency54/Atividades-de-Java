@@ -28,7 +28,6 @@ public class TP01Ex11 {
          area = Math.PI*(Math.pow((diametro/2),2));
          
          System.out.println("Valor da área do círculo: "+area);
-         scanner.close();
     }
     
 }
