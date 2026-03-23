@@ -5,7 +5,7 @@
  */
 package tp01ex08;
 
-import java.util.Scanner;
+import java.util.*;
 
 /**
  *
@@ -16,10 +16,10 @@ public class TP01Ex08 {
     /**
      * @param args the command line arguments
      */
-     /*Nomes: Jo鉶 Victor Lima Venceslau e Rayssa Silva de Oliveira 
+     /*Nomes: Jo茫o Victor Lima Venceslau e Rayssa Silva de Oliveira 
      8. Sabendo que uma milha mar铆tima equivale a um mil, oitocentos e cinquenta e
-      dois metros e que um quil么metro possui mil metros, fazer um programa para
-      converter milhas mar铆timas em quil么metros.*/
+        dois metros e que um quil么metro possui mil metros, fazer um programa para
+        converter milhas mar铆timas em quil么metros.*/
     public static void main(String[] args) {
         // TODO code application logic here
        Scanner scanner = new Scanner(System.in);
@@ -33,7 +33,6 @@ public class TP01Ex08 {
 
         System.out.println("Equivalente em quil么metros: " + quilometros + " km");
 
-        scanner.close();
     }
     
 }
