@@ -1,34 +1,44 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tp01ex02;
+
 import java.util.Scanner;
-/**
- *
- * @author aluno
- */
+
 public class TP01Ex02 {
 
-    /**
-     * @param args the command line arguments
-     */
-    /* Nomes: Jo„oo Victor Lima Venceslau e Rayssa Silva de Oliveira 
-    2. Calcular e exibir a ·rea de um quadrado, a partir do valor de sua aresta que ser·°
+    /* Nomes: Jo√£o Victor Lima Venceslau e Rayssa Silva de Oliveira 
+    
+    2. Calcular e exibir a √°rea de um quadrado, a partir do valor de sua aresta que ser√°
         digitado.*/
     public static void main(String[] args) {
-        // TODO code application logic here
-         Scanner scanner = new Scanner(System.in);
+
+        Scanner scanner = new Scanner(System.in);
          double aresta;
          double area;
          
-        System.out.println("Digite o valor da aresta:");
-        aresta = scanner.nextDouble();
+         while (true) {
+            System.out.println("Digite o valor da aresta:");
+
+            if (scanner.hasNextDouble()) {
+                aresta = scanner.nextDouble();
+                System.out.println();
+                if (aresta > 0) {
+                    break;
+                } else {
+                
+                    System.out.println("Erro! Apenas valores maiores que 0.");
+                    System.out.println();
+                }
+
+            } else {
+                                System.out.println();   
+                System.out.println("Erro! Apenas n√∫meros");
+                                System.out.println();
+                scanner.next(); 
+            }
+        }
+
 
         area = aresta * aresta;
 
-        System.out.println("A ·rea do quadradoo È: " + area);
+        System.out.printf("A √°rea do quadrado √©: %.2f\n" , area);
 
         scanner.close();   
     }
