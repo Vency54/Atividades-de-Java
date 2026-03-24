@@ -24,13 +24,7 @@ public class TP01Ex06 {
             if (scanner.hasNextDouble()) {
           n1 = scanner.nextDouble();
                 System.out.println();
-                 if (n1 > 0) {
-                    break;
-                } else {
-                
-                    System.out.println("Erro! Apenas valores maiores que 0.");
-                    System.out.println();
-                }
+                 break;
         
             } else {
                                 System.out.println();   
@@ -46,13 +40,7 @@ public class TP01Ex06 {
             if (scanner.hasNextDouble()) {
         n2= scanner.nextDouble(); 
                 System.out.println();
-                           if (n2 > 0) {
                     break;
-                } else {
-                
-                    System.out.println("Erro! Apenas valores maiores que 0.");
-                    System.out.println();
-                }
         
             } else {
                                 System.out.println();   
@@ -68,14 +56,8 @@ public class TP01Ex06 {
             if (scanner.hasNextDouble()) {
         n3= scanner.nextDouble(); 
                 System.out.println();
-                           if (n3 > 0) {
                     break;
-                } else {
-                
-                    System.out.println("Erro! Apenas valores maiores que 0.");
-                    System.out.println();
-                }
-        
+
         
             } else {
                                 System.out.println();   
@@ -91,15 +73,9 @@ public class TP01Ex06 {
             if (scanner.hasNextDouble()) {
         n4= scanner.nextDouble(); 
                 System.out.println();
-                             if (n4 > 0) {
+
                     break;
-                } else {
-                
-                    System.out.println("Erro! Apenas valores maiores que 0.");
-                    System.out.println();
-                }
-        
-        
+
             } else {
                                 System.out.println();   
                 System.out.println("Erro! Apenas números");
