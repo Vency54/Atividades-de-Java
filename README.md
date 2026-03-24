@@ -1,12 +1,12 @@
 
 
-https://github.com/user-attachments/assets/a9424703-b424-41ea-bce0-a6f0bb893df3
+
+Vídeos demonstrativos de cada Exercício
+
+https://github.com/user-attachments/assets/4378f027-8221-475c-989e-d0ab47ef91f6
 
 
 
-https://github.com/user-attachments/assets/88f51c6e-8be7-4075-97fa-85171222121a
 
-
-
-
+https://github.com/user-attachments/assets/7c7ae65d-5689-4ce2-ada3-fbfb84b2a7fd
 
