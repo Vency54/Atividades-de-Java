@@ -1,38 +1,92 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tp01ex06;
-import java.util.*;
-/**
- *
- * @author aluno
- */
+
+import java.util.Scanner;
+
 public class TP01Ex06 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     /* Nomes: João Victor Lima Venceslau e Rayssa Silva de Oliveira 
+    
     6. Calcular e exibir a média aritmética de quatro valores quaisquer que serão
       digitados.*/
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+
         Scanner scanner = new Scanner(System.in);
-        double[] valores = new double[4];
-        double soma = 0;
+        double n1;
+        double n2;
+        double n3;
+        double n4;
         double media;
         
-for (int i = 0; i < 4; i++) {
-            System.out.print("Digite o valor " + (i + 1) + ": ");
-            valores[i] = scanner.nextDouble();
-            soma += valores[i];
+        while (true) {
+        System.out.println("Digite o primeiro número: ");
+
+            if (scanner.hasNextDouble()) {
+          n1 = scanner.nextDouble();
+                System.out.println();
+                    break;
+        
+            } else {
+                                System.out.println();   
+                System.out.println("Erro! Apenas números");
+                                System.out.println();
+                scanner.next(); 
+            }
         }
         
-        media = soma/4;
+                while (true) {
+        System.out.println("Digite o segundo número: ");
+
+            if (scanner.hasNextDouble()) {
+        n2= scanner.nextDouble(); 
+                System.out.println();
+                    break;
         
-        System.out.println("Média aritmética: "+media);
+            } else {
+                                System.out.println();   
+                System.out.println("Erro! Apenas números");
+                                System.out.println();
+                scanner.next(); 
+            }
+        }
+        
+        while (true) {
+        System.out.println("Digite o terceiro número: ");
+
+            if (scanner.hasNextDouble()) {
+        n3= scanner.nextDouble(); 
+                System.out.println();
+                    break;
+        
+            } else {
+                                System.out.println();   
+                System.out.println("Erro! Apenas números");
+                                System.out.println();
+                scanner.next(); 
+            }
+        }
+        
+        while (true) {
+        System.out.println("Digite o quarto número: ");
+
+            if (scanner.hasNextDouble()) {
+        n4= scanner.nextDouble(); 
+                System.out.println();
+                    break;
+        
+            } else {
+                                System.out.println();   
+                System.out.println("Erro! Apenas números");
+                                System.out.println();
+                scanner.next(); 
+            }
+        }
+
+        media = (n1 + n2 + n3+ n4)/4;
+        
+        System.out.printf("Média aritmética: %.2f\n", media);
+        
+        scanner.close();
         
         
     }
