@@ -1,31 +1,67 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tp01ex17;
+
 import java.util.*;
 
-/**
- *
- * @author aluno
- */
 public class TP01Ex17 {
 
-     /*Nomes: João Victor Lima Venceslau e Rayssa Silva de Oliveira 
+     /*Nomes: João Victor Lima Venceslau e Rayssa Silva de Oliveira
+    
       17. Entrar via teclado com dois valores quaisquer “X” e “Y”. Calcular e exibir o
 cálculo XY (“X” elevado a “Y”). Pesquisar as funções Exp e Ln. */
+    
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         double x;
         double y;
         double resultado;
         
-         System.out.println("Digite o valor de x: ");
-        x = sc.nextDouble();
+     
+        while(true){
         
+               while (true) {
+         System.out.println("Digite o valor de x: ");
+
+        if (scanner.hasNextDouble()) {
+        x = scanner.nextDouble();
+                System.out.println();
+                    break;
+        
+            } else {
+                System.out.println();   
+                System.out.println("Erro! Apenas números");
+                                System.out.println();
+                scanner.next(); 
+            }
+        }
+       
+               
+               while (true) {
            System.out.println("Digite o valor de y: ");
-        y = sc.nextDouble();
+
+        if (scanner.hasNextDouble()) {
+        y = scanner.nextDouble();
+                System.out.println();
+                    break;
+        
+            } else {
+                                System.out.println();   
+                System.out.println("Erro! Apenas números");
+                                System.out.println();
+                scanner.next(); 
+            }
+        }   
+        
+        
+        if (x < 0 && y % 1 != 0) {
+    System.out.println("Erro! X não pode ser negativo, se Y não é inteiro");
+    continue;
+}
+        if (x == 0 && y < 0) {
+    System.out.println("Erro! 0 não pode ser elevado a expoente negativo.");
+    continue;
+}
+        break;
+        }
+        
         
         resultado = Math.pow(x, y);
         
@@ -33,7 +69,6 @@ cálculo XY (“X” elevado a “Y”). Pesquisar as funções Exp e Ln. */
 
         
         
-        
-    }
     
+}
 }
