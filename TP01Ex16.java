@@ -1,26 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tp01ex16;
+
 import java.util.*;
-/**
- *
- * @author aluno
- */
+
 public class TP01Ex16 {
 
-    /**
-     * @param args the command line arguments
-     */
     /*Nomes: João Victor Lima Venceslau e Rayssa Silva de Oliveira 
+    
       16. Entrar via teclado com o valor de um ângulo em graus, calcular e exibir as
           seguintes funções trigonométricas: seno, cosseno, tangente e secante deste ângulo.
           Lembre-se que uma função trigonométrica trabalha em radianos. */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
-        Scanner sc = new Scanner(System.in);
+
+        Scanner scanner = new Scanner(System.in);
         double angulo;
         double radianos;
         double seno;
@@ -28,8 +19,22 @@ public class TP01Ex16 {
         double tangente;
         double secante;
         
-        System.out.println("Digite o valor de um ângulo: ");
-        angulo = sc.nextDouble();
+       while (true) {
+        System.out.println("Digite o valor do ângulo: ");
+
+        if (scanner.hasNextDouble()) {
+        angulo = scanner.nextDouble();
+                System.out.println();
+                    break;
+        
+            } else {
+                                System.out.println();   
+                System.out.println("Erro! Apenas números");
+                                System.out.println();
+                scanner.next(); 
+            }
+        }
+       
         
         radianos = Math.toRadians(angulo);
         
