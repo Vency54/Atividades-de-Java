@@ -45,7 +45,7 @@ public class TP01Ex18 {
             
             System.out.printf("Total da Compra: R$%.2f%n", soma);
             System.out.println("================================");
-            System.out.println("Insira o valor para pagamento: ");
+            System.out.print("Insira o valor para pagamento: ");
             pagamento = scanner.nextDouble();
             
             if(pagamento < soma){
