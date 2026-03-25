@@ -1,4 +1,10 @@
+Para a visualização dos carecteres especiais no código, deve-se utilizar a codificação UTF-8.
+Caso não tenha a instalada na máquina, adicione a seguinte váriavel ambiente ao sistema:
+Nome da variável:
+JAVA_TOOL_OPTIONS
 
+Valor da variável:
+-Dfile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -Dconsole.encoding=UTF-8
 
 
 Vídeos demonstrativos de cada Exercício
@@ -63,5 +69,25 @@ https://github.com/user-attachments/assets/93d97801-bf8e-485d-bffc-55d72e13941f
 https://github.com/user-attachments/assets/ae521b1c-f84e-45ad-826f-a6545e70ae0c
 
 
+
+
+https://github.com/user-attachments/assets/c3e69581-aebb-4483-a6e6-1e8240241725
+
+
+
+https://github.com/user-attachments/assets/47728d6a-3784-46fc-a04e-1f7534fa41de
+
+
+
+
+https://github.com/user-attachments/assets/0d2049a0-5eec-47db-bda8-ef41a2b8aca0
+
+
+
+https://github.com/user-attachments/assets/0c2040db-cff3-459d-9764-d7710300863e
+
+
+
+https://github.com/user-attachments/assets/6bc022c3-f528-439b-9d6a-9b02f925274c
 
 
